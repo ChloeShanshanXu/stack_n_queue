@@ -173,7 +173,7 @@ if __name__ == "__main__":
 
     for num in range(7, 12):
         q.add_back(num)
-   
+
     while not q.is_empty():
 
         print(q.remove_back())
